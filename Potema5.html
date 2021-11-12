@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!--codificacion de la pagina-->
+    <meta charset="utf-8">
+
+    <!--Ajustes de dimencion de la pagina responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Titulo de la pagina-->
+    <title> MathZone</title>
+
+    <!--Favicon de la pagina-->
+    <link  rel="icon" href="assets/images/logo.png" type="image/png"/>
+
+    <!-- llamado de librearia fonts de google para la fuente de la letra -->
+    <link href="//fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+   
+    <!-- llamado de las carpetas de estilo css -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+  
+  </head>
+  <body>
+<!-- menu -->
+    <section class="w3l-bootstrap-header">
+
+      <nav class="navbar navbar-expand-lg navbar-light py-lg-2 py-2">
+    
+        <div class="container">
+    
+          <a href="#index.html">
+            <img src="assets/images/logo.png" title="MathZone" style="height:40px;" />
+          </a>
+    
+          <a class="navbar-brand" href="index.html">
+            <h1>
+              <b title="MathZone">MathZone</b>
+            </h1>
+          </a>
+    
+          <div class="collapse navbar-collapse" >
+    
+            <ul class="navbar-nav mx-auto">
+    
+              <!--menu 1 matrices-->
+              <li class="nav-item">
+                <h3><a class="nav-link" href="matrices.html">MATRICES</a></h3>
+              </li>
+    
+              
+              <!--menu 2 potenciacion-->
+              <li class="nav-item">
+                <h3><a class="nav-link" href="reglas de potenciacion.html">POTENCIACION</a></h3>
+              </li>
+    
+              
+              <!--menu 3 tablas-->
+              <li class="nav-item">
+                <h3><a class="nav-link" href="Sumatorias y Sucesiones.html">SUMATORIAS </a></h3>
+              </li>
+    
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+<section class="w3l-service-breadcrum">
+  <div class="breadcrum-bg py-sm-5">
+    <div class="container py-lg-3">
+      <h2>Potencias</h2>
+      <h2>Exponente negativo y fraccion</h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="info">
+  <div class="features py-5" >
+
+    <!--Temas-->
+    <div id="temas">
+    
+      <div class="video">
+        <iframe width="920" height="345" src="https://www.youtube.com/embed/hddC6yR51-s"></iframe>
+      </div>
+
+      <br><h1>Potencia de un exponente negativo</h1><br>
+      <h4>Cuando tenemos un exponente negativo hay que INVERTIR LA BASE para pasar a exponente
+         positivo. Fíjate que el poner el inverso de la base no significa cambiar el signo de la misma. 
+         Al final el signo del resultado dependerá de si el exponente es par o impar. </h4><br><br><br><br>
+
+         <div class="video">
+          <iframe width="920" height="345" src="https://www.youtube.com/embed/IqW4-JUrd3k"></iframe>
+        </div>
+  
+        <br><h1>Potencia con exponente en fraccion</h1><br>
+        <h4>En concreto, llamamos potencias de exponente fraccionario a aquellas potencias en 
+          las que el exponente es un número fraccionario ( a n m ).<br> <br>
+          Por ejemplo: 2 5 4 , 3 1 2 , ( - 5 ) - 1 7 . </h4><br><br>
+
+    </div>
+
+    <!--sub menu-->
+	  <div class="submenu">
+
+        
+
+      <div class="vertical-menu">
+        <a href="#" class="active">Indice</a>
+        <a href="introMa.html">Introducción</a>
+        <a href="suMa.html">Bases negativas y exponentes 0 y 1</a>
+        <a href="reMa.html">Coeficiente y producto iguales</a>
+        <a href="poMa.html">Cociente, producto y potencia negativa</a>
+      </div>
+      
+
+        </div>
+  </div>
+</section>
+
+
+</section>
+<section class="w3l-footer-29-main">
+ <div class="footer-29">
+     <div class="container">
+             <div class="footer-list-29 footer-1">
+                 <h6 class="footer-title-29">Referencias</h6>
+                 <ul>
+                     <li><a href="https://www.youtube.com/watch?v=hddC6yR51-s&t=4s">Propiedades de la potenciación | Potencias con exponentes negativos</a></li>
+                     <li><a href="https://www.youtube.com/watch?time_continue=1&v=IqW4-JUrd3k&feature=emb_logo&ab_channel=Matem%C3%A1ticasprofeAlex">Potencia con exponente fracción</a></li>
+                     <li><a href="http://rephip.unr.edu.ar/bitstream/handle/2133/4870/1202-15%20MATEMATICA%20Potenciaci%C3%B3n%20en%20R-Factoreo.pdf?sequence=2">Matematica potenciacion en r-factorero</a></li>
+                     <li><a href="https://redined.educacion.gob.es/xmlui/handle/11162/73671">Potenciacion y radicacion</a></li>
+                 </ul>
+             </div>
+     </div>
+ </div>
+
+ <!--boton menu-->
+ <button onclick="topFunction()" id="movetop" title="menu">
+   <span class="fa fa-angle-up"></span>
+ </button>
+
+ <script>
+   window.onscroll = function () {
+     scrollFunction()
+   };
+
+   function scrollFunction() {
+     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+       document.getElementById("movetop").style.display = "block";
+     } else {
+       document.getElementById("movetop").style.display = "none";
+     }
+   }
+
+   function topFunction() {
+     document.body.scrollTop = 0;
+     document.documentElement.scrollTop = 0;
+   }
+ </script>
+</section>
+
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+</section>
+<script>
+ $(function () {
+   $('.navbar-toggler').click(function () {
+     $('body').toggleClass('noscroll');
+   })
+ }); 
+</script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+ integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+ integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+ integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+<script src="assets/js/all.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
+
+</body>
+</html>

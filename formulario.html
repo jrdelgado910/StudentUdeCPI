@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>login - StudentUdeC</title>
+
+    <link  rel="icon" href="assets/images/logo.png" type="image/png"/>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="assets/css/signin.css" rel="stylesheet">
+  <body>
+    <main class="form-signin1">
+        <form>
+        <center>
+            <img class="mb-4" src="assets/images/logo.png" alt="" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal">StudentUdeC</h1>
+        </center>
+          
+      
+          <br>
+          <h2>Registro</h2>
+          <br>
+              <div class="">
+                  <form action=""  enctype="multipart/form-data" method="POST">
+      
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name">
+                        <label for="floatingInput">Nombre</label>
+                    </div>
+                  <br>
+
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingPassword" placeholder="lastname">
+                    <label for="floatingPassword">Apellido</label>
+                  </div>
+                  <br>
+      
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Correo Electronico</label>
+                  </div>
+                  <br>
+      
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="uno" placeholder="Password">
+                    <label for="uno">Contraseña</label>
+                    <input type="checkbox" aria-label="Checkbox for following text input" onclick="myFunction()">Mostrar
+                  </div>
+                  <br>
+      
+      <center>
+      <button  type="submit" class="btn btn-success mb-2" name="Envi" value="S">Registrarte</button>
+      </center>
+                 
+                  <br>
+                  <br>
+        </form>
+      </main>
+      <script>
+        function myFunction() {
+    var x = document.getElementById("uno");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+    </script>
+
+  </body>
+
+</html>
